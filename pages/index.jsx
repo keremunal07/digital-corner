@@ -6,6 +6,7 @@ import Anchor from '../components/atoms/anchor'
 import Banner from '../components/organisms/banner'
 import Achievements from '../components/organisms/achievements'
 import Services from '../components/organisms/services'
+import WhyChooseUs from '../components/organisms/why-choose-us'
 
 
 export default function Home() {
@@ -20,6 +21,9 @@ export default function Home() {
         </section>
         <section className='sectionServices'>
           <Services />
+        </section>
+        <section className='sectionAboutUs'>
+          <WhyChooseUs />
         </section>
       </Container>
     </>

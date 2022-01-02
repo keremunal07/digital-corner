@@ -24,77 +24,77 @@ const Footer = () => {
                     <div className='right'>
                         <div className='d-flex items'>
                             <ul className='footer-item'>
-                                <Title size={'17px'} weight={600} color={'white'}>SERVİSLERİMİZ</Title>
+                                <Title size={'15px'} weight={600} color={'white'}>Servislerimiz</Title>
                                 <li>
-                                    <Anchor size={'17px'} color={'#7c7c7c'}>
+                                    <Anchor size={'15px'} color={'#7c7c7c'}>
                                         Sosyal medya yönetimi
                                     </Anchor>
                                 </li>
                                 <li>
-                                    <Anchor size={'17px'} color={'#7c7c7c'}>
+                                    <Anchor size={'15px'} color={'#7c7c7c'}>
                                         Web site tasarımı
                                     </Anchor>
                                 </li>
                                 <li>
-                                    <Anchor size={'17px'} color={'#7c7c7c'}>
+                                    <Anchor size={'15px'} color={'#7c7c7c'}>
                                         SEO Çalışmaları
                                     </Anchor>
                                 </li>
                                 <li>
-                                    <Anchor size={'17px'} color={'#7c7c7c'}>
+                                    <Anchor size={'15px'} color={'#7c7c7c'}>
                                         İçerik yazarlığı
                                     </Anchor>
                                 </li>
                             </ul>
                             <ul className='footer-item'>
-                                <Title size={'17px'} weight={600} color={'white'}>İLETİŞİM</Title>
+                                <Title size={'15px'} weight={600} color={'white'}>İletişim</Title>
                                 <li>
-                                    <Anchor size={'17px'} color={'#7c7c7c'}>
+                                    <Anchor size={'15px'} color={'#7c7c7c'}>
                                         +90 554 229 4567
                                     </Anchor>
                                 </li>
                                 <li>
-                                    <Anchor size={'17px'} color={'#7c7c7c'}>
+                                    <Anchor size={'15px'} color={'#7c7c7c'}>
                                         info@digitalcorner.co
                                     </Anchor>
                                 </li>
                                 <li>
-                                    <Anchor size={'17px'} color={'#7c7c7c'}>
+                                    <Anchor size={'15px'} color={'#7c7c7c'}>
                                         Antalya/Turkey
                                     </Anchor>
                                 </li>
                             </ul>
                             <ul className='footer-item'>
-                                <Title size={'17px'} weight={600} color={'white'}>SOSYAL MEDYA</Title>
+                                <Title size={'15px'} weight={600} color={'white'}>Sosyal Medya</Title>
                                 <li className='d-flex align-items-start'>
                                     <div className='footer-icon'>
-                                        <FaInstagram size={'17px'} color='white' />
+                                        <FaInstagram size={'15px'} color='white' />
                                     </div>
-                                    <Anchor style={{padding:'15px'}} size={'17px'} color={'#7c7c7c'}>
+                                    <Anchor style={{padding:'15px'}} size={'15px'} color={'#7c7c7c'}>
                                         Instagram
                                     </Anchor>
                                 </li>
                                 <li className='d-flex align-items-start'>
                                     <div className='footer-icon'>
-                                        <FaTwitter size={'17px'} color='white' />
+                                        <FaTwitter size={'15px'} color='white' />
                                     </div>
-                                    <Anchor style={{padding:'15px'}} size={'17px'} color={'#7c7c7c'}>
+                                    <Anchor style={{padding:'15px'}} size={'15px'} color={'#7c7c7c'}>
                                         Twitter
                                     </Anchor>
                                 </li>
                                 <li className='d-flex align-items-start'>
                                     <div className='footer-icon'>
-                                        <FaFacebook size={'17px'} color='white' />
+                                        <FaFacebook size={'15px'} color='white' />
                                     </div>
-                                    <Anchor style={{padding:'15px'}} size={'17px'} color={'#7c7c7c'}>
+                                    <Anchor style={{padding:'15px'}} size={'15px'} color={'#7c7c7c'}>
                                         Facebook
                                     </Anchor>
                                 </li>
                                 <li className='d-flex align-items-start'>
                                     <div className='footer-icon'>
-                                        <FaTelegramPlane size={'17px'} color='white' />
+                                        <FaTelegramPlane size={'15px'} color='white' />
                                     </div>
-                                    <Anchor style={{padding:'15px'}} size={'17px'} color={'#7c7c7c'}>
+                                    <Anchor style={{padding:'15px'}} size={'15px'} color={'#7c7c7c'}>
                                         Telegram
                                     </Anchor>
                                 </li>

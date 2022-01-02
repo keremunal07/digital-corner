@@ -42,12 +42,17 @@ a {
   padding: 170px 0 75px 0;
 }
 .sectionAchievements { 
-  background: #6384ff;
+  background: #32325c;
   padding: 100px 0;
   padding-bottom: 150px;
 
 }
 .sectionServices {
+  background: #f9fcff;
+}
+.sectionAboutUs {
+  padding: 75px 0;
+  padding-top: 0;
   background: #f9fcff;
 }
 .banner-text {
@@ -86,7 +91,6 @@ a {
   box-shadow: 0 5px 50px rgb(156 185 226 / 20%);
   border-radius: 6px;
   padding: 10px 10px;
-  margin: 15px auto ;
 }
 .service-item {
   cursor: pointer;

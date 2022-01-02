@@ -41,11 +41,13 @@ const Services = () => {
         }
     ]
     return (
-        <Container className={'text-center pt-5 pb-2 services-wrapper'}>
-            <Title className={'m-4'} size={'36px'} weight={'bold'}>Hizmetlerimiz</Title>
-            <Paragraph className={'pb-4'} size={'18px'} lineHeight={'24px'}> 
-                Size sunduğumuz hizmetler size sunduğumuz hizmetler  <br /> size sunduğumuz hizmetler Size sunduğumuz hizmetler  sunduğumuz hizmetler
-            </Paragraph>
+        <Container className={'text-center pt-5 services-wrapper'}>
+            <div data-aos='fade-up'>
+                <Title className={'m-4'} size={'36px'} weight={'bold'}>Hizmetlerimiz</Title>
+                <Paragraph className={'pb-4'} size={'18px'} lineHeight={'24px'}> 
+                    Size sunduğumuz hizmetler size sunduğumuz hizmetler  <br /> size sunduğumuz hizmetler Size sunduğumuz hizmetler  sunduğumuz hizmetler
+                </Paragraph>
+            </div>
             <div className='row'>
                 {
                     servicesItem.map((item) => {

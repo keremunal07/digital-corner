@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Container from '../molecules/container'
 import Title from '../atoms/title'
 import Paragraph from '../atoms/paragraph'
+import CountUp from 'react-countup'
 
 const Achievements = () => {
     return (
@@ -18,7 +19,12 @@ const Achievements = () => {
                         />
                         <div className='textBox ml-3'>
                             <Title size={'48px'} color={'white'} weight={'800'}>
-                                <span className='counter' >28</span>+
+                                <span className='counter' >
+                                    <CountUp 
+                                    end={21}
+                                    duration={2}
+                                    />
+                                </span>+
                             </Title>
                             <Paragraph size={'15px'} color={'white'} weight={'600'}>
                                 Mutlu iş ortaklığı
@@ -34,7 +40,12 @@ const Achievements = () => {
                         />
                         <div className='textBox ml-3'>
                             <Title size={'48px'} color={'white'} weight={'800'}>
-                                <span className='counter' >102</span>+
+                                <span className='counter' >
+                                    <CountUp 
+                                    end={102}
+                                    duration={2}
+                                    />    
+                                </span>+
                             </Title>
                             <Paragraph size={'15px'} color={'white'} weight={'600'}>
                                 Sosyal medya yönetimi
@@ -50,7 +61,12 @@ const Achievements = () => {
                         />
                         <div className='textBox ml-3'>
                             <Title size={'48px'} color={'white'} weight={'800'}>
-                                <span className='counter' >51</span>+
+                                <span className='counter' >
+                                    <CountUp 
+                                    end={51}
+                                    duration={2}
+                                    />    
+                                </span>+
                             </Title>
                             <Paragraph size={'15px'} color={'white'} weight={'600'}>
                                 SEO Çalışmalarımız

@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const ServicesItem = ({className, item}) => {
     return (
-        <div className={ className }>
+        <div data-aos='fade-up' className={ className }>
             <div className="service-item text-center align-items-center m-3 p-4">
                     <div className="image">
                         <img src={`/services/${item.id}.png`} width={'48px'} height={'48px'} alt='digital corner agency' />
